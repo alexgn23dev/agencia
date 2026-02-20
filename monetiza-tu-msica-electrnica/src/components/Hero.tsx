@@ -34,12 +34,12 @@ export function Hero() {
 
           {/* Main headline */}
           <h1 className="animate-fade-in-up delay-100 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.05] mb-6">
-            Produces que suenan a{' '}
-            <span className="gradient-text">hit</span>
+            Produces{' '}
+            <span className="gradient-text">genial</span>
             <br />
             <span className="text-text-secondary font-semibold">
-              Ingresos que suenan a{' '}
-              <span className="gradient-text-warm">cero</span>
+              Pero los ingresos {' '}
+              <span className="gradient-text-warm">no llegan</span>
             </span>
           </h1>
 
