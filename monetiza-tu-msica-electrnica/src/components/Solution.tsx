@@ -3,38 +3,40 @@ import { Check, X, Zap, Target, TrendingUp, Shield } from 'lucide-react';
 const benefits = [
   {
     icon: Target,
-    title: 'Posicionamiento claro',
-    desc: 'Que te diferencia del 99% de productores',
+    title: 'Posicionamiento que diferencia',
+    desc: 'Dejas de ser "un productor más" y te conviertes en LA referencia de un nicho concreto.',
   },
   {
     icon: Zap,
-    title: 'Oferta irresistible',
-    desc: 'Que tus clientes ideales quieren comprar',
+    title: 'Oferta que se vende sola',
+    desc: 'Empaquetamos tu habilidad en un servicio premium que tu cliente ideal necesita y quiere pagar.',
   },
   {
     icon: TrendingUp,
-    title: 'Sistema de captación',
-    desc: 'Que funciona sin necesitar 10K seguidores',
+    title: 'Clientes sin necesitar 10K seguidores',
+    desc: 'Un sistema de captación directa que funciona con 0 audiencia. Sin algoritmos, sin viralidad.',
   },
   {
     icon: Shield,
-    title: 'Ingresos predecibles',
-    desc: 'No likes ni reproducciones: dinero real',
+    title: 'Ingresos predecibles cada mes',
+    desc: 'No likes ni reproducciones. Dinero real, recurrente, que puedes proyectar y del que puedes vivir.',
   },
 ];
 
 const forWhom = [
-  'Productores con buen nivel técnico (mínimo 2 años produciendo)',
-  'Que quieren generar ingresos online, no vivir de bolos',
-  'Dispuestos a invertir tiempo y dinero en su negocio',
-  'Que entienden que el talento solo no basta',
+  'Produces bien — mínimo 2 años de experiencia real en electrónica',
+  'Quieres ingresos online, no vivir de bolos ni depender de actuaciones',
+  'Estás dispuesto a invertir en montar tu negocio, no solo en más plugins',
+  'Entiendes que ser buen productor no garantiza ganar dinero',
+  'Quieres un sistema, no otro curso de producción que acumula polvo',
 ];
 
 const notForWhom = [
-  'Principiantes que aún están aprendiendo a producir',
-  'Productores que solo quieren más seguidores',
-  'Quien busca hacerse rico rápido sin trabajar',
-  'DJs que buscan más actuaciones',
+  'Estás empezando y aún no dominas la producción',
+  'Solo buscas más seguidores o reproducciones en Spotify',
+  'Quieres hacerte rico mañana sin trabajar',
+  'Eres DJ y buscas conseguir más actuaciones',
+  'No estás dispuesto a salir de tu zona de confort',
 ];
 
 export function Solution() {
@@ -43,7 +45,7 @@ export function Solution() {
       {/* Background */}
       <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-brand/3 rounded-full blur-[200px]" />
       <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-accent-cyan/3 rounded-full blur-[200px]" />
-      
+
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* New opportunity */}
         <div className="max-w-3xl mx-auto text-center mb-20">
@@ -51,17 +53,18 @@ export function Solution() {
             La nueva oportunidad
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-6">
-            Existe otra forma.{' '}
+            Existe otra forma de monetizar.{' '}
             <br className="hidden sm:block" />
             <span className="gradient-text">Y no tiene nada que ver con ser DJ.</span>
           </h2>
           <p className="text-lg text-text-secondary leading-relaxed mb-4">
-            El mercado de la producción musical está cambiando. Los productores que están generando 
-            ingresos reales no son los que más seguidores tienen.
+            Los productores que están generando ingresos reales no son los que más seguidores tienen.
+            No son los que suben un beat diario. No son los que rezan para que un sello les fiche.
           </p>
           <p className="text-lg text-text-primary leading-relaxed font-medium">
-            Son los que han entendido una cosa: tu habilidad como productor es un servicio de alto valor. 
-            Solo necesitas saber empaquetarlo, posicionarte y llegar a los clientes correctos.
+            Son productores que han convertido su habilidad en un servicio de alto valor.
+            Que saben exactamente qué ofrecen, a quién se lo ofrecen, y cómo llegar a esos clientes.
+            Eso es lo que construimos contigo.
           </p>
         </div>
 
@@ -70,11 +73,11 @@ export function Solution() {
           <div className="text-center mb-12">
             <h3 className="text-2xl sm:text-3xl font-bold tracking-tight">
               De productor invisible a{' '}
-              <span className="gradient-text">negocio rentable en 90 días</span>
+              <span className="gradient-text">negocio rentable en 8 semanas</span>
             </h3>
             <p className="mt-4 text-text-secondary max-w-2xl mx-auto">
-              No somos una agencia de marketing genérica. Somos el único servicio de consultoría 
-              especializado en monetización para productores de música electrónica.
+              No somos una agencia de marketing genérica. Somos la única consultoría especializada
+              en monetización para productores de música electrónica. Esto es lo único que hacemos.
             </p>
           </div>
 

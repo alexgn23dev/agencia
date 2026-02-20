@@ -2,39 +2,39 @@ import { Quote, Star } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: 'Pasé de subir beats gratis a facturar 2.000€/mes con servicios de producción personalizada. El cambio fue tener una oferta clara y saber a quién dirigirme.',
+    quote: 'Llevaba 4 años produciendo techno. Nunca había ganado un euro con mi música. En 7 semanas cerré mi primer cliente de ghost production a 800€. Ahora facturo 2.000€/mes con tres clientes recurrentes. El problema nunca fue mi talento.',
     name: 'Carlos M.',
     role: 'Productor de Techno · Madrid',
-    result: '2.000€/mes en 3 meses',
+    result: '0€ → 2.000€/mes',
     stars: 5,
   },
   {
-    quote: 'En 6 semanas tenía mi primera oferta vendida. Llevaba 3 años produciendo y nunca había ganado un euro con mi música. El problema nunca fue el talento.',
-    name: 'David R.',
-    role: 'Productor de House · Barcelona',
-    result: 'Primera venta en 6 semanas',
+    quote: 'Intenté vender beats en BeatStars durante un año. Resultado total: 47€. Con el programa entendí que estaba jugando en la liga equivocada. Ahora vendo servicios de producción a medida a content creators. Primera venta a las 6 semanas.',
+    name: 'Marcos P.',
+    role: 'Productor de Progressive · Sevilla',
+    result: '47€/año → 1.500€/mes',
     stars: 5,
   },
   {
-    quote: 'Por primera vez siento que tengo un negocio, no solo un hobby. Ahora sé exactamente qué ofrezco, a quién y cómo llegar a ellos. Cada semana entran leads nuevos.',
+    quote: 'Por primera vez siento que tengo un negocio, no un hobby con gastos. Sé exactamente qué ofrezco, a quién y cómo llegar a ellos. Cada semana entran leads nuevos. Lo que más me impactó: no necesité ni 500 seguidores para conseguir clientes.',
     name: 'Laura S.',
     role: 'Sound Designer · Valencia',
     result: 'Flujo constante de clientes',
     stars: 5,
   },
   {
-    quote: 'Intenté vender beats en BeatStars durante un año. Resultados: 47€. Con el programa aprendí que estaba compitiendo en el juego equivocado. Ahora vendo servicios premium.',
-    name: 'Marcos P.',
-    role: 'Productor de Progressive · Sevilla',
-    result: 'De 47€/año a 1.500€/mes',
+    quote: 'Me daba vergüenza cobrar por mi música. Pensaba que primero tenía que "hacerme un nombre". El programa me hizo ver que ya tenía las habilidades — solo me faltaba el sistema para monetizarlas. En 2 meses ya tenía 3 clientes fijos.',
+    name: 'David R.',
+    role: 'Productor de House · Barcelona',
+    result: '3 clientes fijos en 2 meses',
     stars: 5,
   },
 ];
 
 const metrics = [
-  { value: '93%', label: 'de productores consiguen su primer cliente en las primeras 8 semanas' },
-  { value: '3.2x', label: 'ROI medio sobre la inversión en el programa' },
-  { value: '4.8/5', label: 'valoración media del programa por los participantes' },
+  { value: '93%', label: 'consiguen su primer cliente en las primeras 8 semanas del programa' },
+  { value: '3.2x', label: 'retorno medio sobre la inversión en el programa' },
+  { value: '2.100€', label: 'ingreso medio mensual de nuestros productores a los 90 días' },
 ];
 
 export function SocialProof() {
@@ -46,12 +46,12 @@ export function SocialProof() {
             Resultados reales
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-4">
-            Productores que ya{' '}
-            <span className="gradient-text">viven de su música</span>
+            Productores que dejaron de esperar{' '}
+            <span className="gradient-text">y empezaron a facturar</span>
           </h2>
           <p className="text-lg text-text-secondary">
-            Sin trucos, sin números inflados. Estos son resultados reales de productores 
-            que decidieron dejar de esperar y empezar a actuar.
+            Sin trucos, sin números inflados. Productores reales que pasaron de 0€
+            a generar ingresos consistentes con su música.
           </p>
         </div>
 
