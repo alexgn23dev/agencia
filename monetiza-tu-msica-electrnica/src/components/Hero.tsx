@@ -45,7 +45,7 @@ export function Hero() {
           {/* CTAs */}
           <div className="animate-fade-in-up delay-300 flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
             <a
-              href="#reservar"
+              href="https://calendly.com/alexproducciononline/llamada-acceso-po" target="_blank" rel="noopener noreferrer"
               className="cta-button group inline-flex items-center gap-2.5 px-8 py-4 rounded-xl text-base font-bold text-white pulse-glow"
             >
               <span className="relative z-10 flex items-center gap-2.5">

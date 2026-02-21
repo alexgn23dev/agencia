@@ -189,7 +189,7 @@ export function Services() {
               {/* CTA */}
               <div className="text-center">
                 <a
-                  href="#reservar"
+                  href="https://calendly.com/alexproducciononline/llamada-acceso-po" target="_blank" rel="noopener noreferrer"
                   className="cta-button group inline-flex items-center gap-2.5 px-10 py-4 rounded-xl text-base font-bold text-white"
                 >
                   <span className="relative z-10 flex items-center gap-2.5">

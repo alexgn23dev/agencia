@@ -35,7 +35,7 @@ export function FinalCTA() {
 
         {/* CTA Button */}
         <a
-          href="#"
+          href="https://calendly.com/alexproducciononline/llamada-acceso-po" target="_blank" rel="noopener noreferrer"
           className="cta-button group inline-flex items-center gap-3 px-10 sm:px-14 py-5 rounded-2xl text-lg font-bold text-white pulse-glow mb-6"
         >
           <span className="relative z-10 flex items-center gap-3">
