@@ -24,18 +24,10 @@ export function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-20 lg:pt-36 lg:pb-28 w-full">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Badge */}
-          <div className="animate-fade-in-up inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-surface-overlay border border-border-subtle mb-8">
-            <Equalizer />
-            <span className="text-sm text-text-secondary">
-              Solo para productores que quieren <span className="text-brand font-medium">facturar de verdad</span>
-            </span>
-          </div>
-
           {/* Main headline */}
-          <h1 className="animate-fade-in-up delay-100 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.05] mb-6">
+          <h1 className="animate-fade-in-up text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.05] mb-6">
             Produces como un{' '}
-            <span className="gradient-text">profesional</span>
+            <span className="gradient-text">bestia</span>
             <br />
             <span className="text-text-secondary font-semibold">
               Cobras como un{' '}
