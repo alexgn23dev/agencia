@@ -39,7 +39,7 @@ export function Hero() {
             <br />
             <span className="text-text-secondary font-semibold">
               Cobras como un{' '}
-              <span className="gradient-text-warm">amateur</span>
+              <span className="gradient-text-warm">bebé</span>
             </span>
           </h1>
 
