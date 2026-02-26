@@ -55,7 +55,7 @@ export function Navbar() {
           {/* CTA Desktop */}
           <div className="hidden lg:block">
             <a
-              href="#reservar"
+              href="https://calendly.com/alexproducciononline/llamada-acceso-po" target="_blank" rel="noopener noreferrer"
               className="cta-button inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold text-white"
             >
               <span className="relative z-10">Reservar llamada</span>
@@ -87,7 +87,7 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="#reservar"
+              href="https://calendly.com/alexproducciononline/llamada-acceso-po" target="_blank" rel="noopener noreferrer"
               onClick={() => setMenuOpen(false)}
               className="cta-button block text-center px-5 py-3 rounded-lg text-sm font-semibold text-white mt-4"
             >

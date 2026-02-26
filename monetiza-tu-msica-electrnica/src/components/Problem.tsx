@@ -3,35 +3,36 @@ import { AlertTriangle, TrendingDown, Eye, DollarSign, HelpCircle, Users } from 
 const pains = [
   {
     icon: Eye,
-    text: 'Subes tracks a plataformas y nadie los escucha',
+    text: 'Subes tracks y nadie los escucha. 200 reproducciones de las cuales 150 son tuyas.',
   },
   {
     icon: Users,
-    text: 'No sabes cómo encontrar clientes que paguen por tu música',
+    text: 'No tienes ni idea de cómo conseguir clientes que paguen por lo que haces.',
   },
   {
     icon: DollarSign,
-    text: 'Has probado vender beats online pero los resultados son ridículos',
+    text: 'Has probado BeatStars, Fiverr o vender beats en redes. Resultado: calderilla.',
   },
   {
     icon: HelpCircle,
-    text: 'No tienes una oferta clara: ¿qué vendes exactamente?',
+    text: 'Si alguien te pregunta "¿a qué te dedicas?" no sabes qué responder sin sentir vergüenza.',
   },
   {
     icon: TrendingDown,
-    text: 'Te sientes invisible en un mercado saturado',
+    text: 'Ves a productores con menos nivel que tú ganando dinero y no entiendes qué hacen diferente.',
   },
   {
     icon: AlertTriangle,
-    text: 'Ves a productores con menos nivel ganando dinero y no entiendes cómo',
+    text: 'Llevas años invirtiendo en plugins, cursos y hardware pero tu cuenta bancaria sigue igual.',
   },
 ];
 
 const agitationPoints = [
-  'No vas a "explotar" en Spotify por arte de magia',
-  'Los ghost production marketplaces pagan miseria',
-  'Publicar beats en YouTube sin estrategia no es un negocio',
-  'Esperar a que alguien te descubra no es un plan',
+  'Spotify no te va a descubrir. Nadie va a llamar a tu puerta.',
+  'Los marketplaces de beats son una carrera al precio más bajo. Y la ganas perdiendo.',
+  'Subir un beat al día a YouTube sin estrategia no es un negocio. Es un hobby disfrazado.',
+  'Cada mes que pasa sin un sistema de monetización, más lejos estás de vivir de esto.',
+  'Mientras tú "esperas tu momento", otros productores con menos talento ya están facturando.',
 ];
 
 export function Problem() {
@@ -44,13 +45,13 @@ export function Problem() {
             El problema real
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-6">
-            El talento sin estrategia es solo un{' '}
-            <span className="gradient-text-warm">hobby caro</span>
+            El talento sin estrategia{' '}
+            <span className="gradient-text-warm">no paga facturas</span>
           </h2>
           <p className="text-lg text-text-secondary leading-relaxed">
-            Llevas años perfeccionando tu sonido. Has invertido miles en plugins, hardware, formación. 
-            Tus tracks suenan a nivel profesional. Pero cuando miras tu cuenta bancaria…{' '}
-            <span className="text-text-primary font-semibold">nada ha cambiado.</span>
+            Llevas años perfeccionando tu sonido. Has invertido miles en formación, plugins, monitores.
+            Tus tracks suenan a nivel profesional. Pero seamos honestos:{' '}
+            <span className="text-text-primary font-semibold">tu cuenta bancaria no refleja tu nivel.</span>
           </p>
         </div>
 
@@ -76,18 +77,19 @@ export function Problem() {
           <div className="gradient-border p-8 sm:p-12 lg:p-16">
             <div className="relative z-10 max-w-3xl mx-auto">
               <span className="inline-block text-sm font-mono font-medium text-red-400 mb-4 tracking-wider uppercase">
-                La realidad incómoda
+                La verdad que nadie te dice
               </span>
               <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight mb-6">
-                Y mientras tú esperas,{' '}
-                <span className="text-red-400">otros monetizan</span>
+                No te falta talento.{' '}
+                <span className="text-red-400">Te falta un sistema.</span>
               </h3>
               <p className="text-lg text-text-secondary leading-relaxed mb-8">
-                Cada día que pasa sin una estrategia clara, estás más lejos de vivir de tu música. 
-                No porque te falte talento. Sino porque el talento sin un sistema de monetización 
-                es solo un hobby con gastos.
+                Piensa en cuánto llevas produciendo. Ahora piensa en cuánto has ganado con ello.
+                Si ese número te duele, el problema no eres tú. El problema es que nadie te enseñó
+                la parte del negocio. Te enseñaron a mezclar, a masterizar, a diseñar sonido.
+                Pero nunca te enseñaron a convertir eso en dinero.
               </p>
-              
+
               <div className="space-y-4 mb-8">
                 {agitationPoints.map((point, i) => (
                   <div key={i} className="flex items-center gap-3">
@@ -103,7 +105,7 @@ export function Problem() {
                 <p className="text-xl font-semibold text-text-primary text-center">
                   El mercado no premia al mejor productor.{' '}
                   <br className="hidden sm:block" />
-                  <span className="gradient-text">Premia al que sabe posicionarse y vender.</span>
+                  <span className="gradient-text">Premia al que sabe posicionarse, vender y cobrar.</span>
                 </p>
               </div>
             </div>
